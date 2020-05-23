@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Калькулятор услуг</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+	<div></div>
+	<div id="main">
+	<p id="p1">Организационно-правовая форма</p>
+	<button id ="OOO" onclick="OOO()">OOO</button>
+	<button class="button2" onclick="IP()">ИП</button>
+	<button onclick="ANO()">АНО</button>
+	<button onclick="ANOTHER()">Иная форма</button>
+	<p id="p1">Система налогообложения</p>
+	<button onclick="USN5()" id="USN5">УСН 5%</button>
+	<button onclick="USN6()" id="USN6">УСН 6%</button>
+	<button onclick="ENVD()" id="ENVD">ЕНВД</button>
+	<button onclick="OSNO()" id="OSNO">ОСНО</button>
+	<button onclick="PATENT()" id="PATENT">Патент</button>
+	<br>
+	<p id="p1">Виды деятельности</p>
+	<button onclick="OOO()">Услуги</button>
+	<button onclick="OOO()">Торговля</button>
+	<button onclick="OOO()">Общепит</button>
+	<button onclick="OOO()">Производство</button>
+	<button onclick="OOO()">Прочее</button>
+	<br>
+	<p id="p3">Количество работников <input onkeyup ="workers()" id="workers" /></p>
+		<div id="main2">
+			Базовая стоимость бухгалтерского<br>обслуживания, руб. в месяц
+			<div id="main22">0</div>
+		</div>
+	</div>
+	</body>
+</html>
